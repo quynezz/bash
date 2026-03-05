@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # we could check the error with "shell check" or "bash -n", or "bash -u" for the udefined var
 # -> those arguments will ran the code but ain't print the value out, just check if the code is correct or not
 
