@@ -13,7 +13,7 @@ for key in "${!arr[@]}"; do
     echo "$key has value = ${arr[$key]}"
 done
 
-# this will print the values directly
+# this will not print the values directly
 for key in "${!arr[@]}"; do
     echo "$key has value = ${arr[$key]}"
 done
