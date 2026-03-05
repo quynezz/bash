@@ -19,3 +19,10 @@ ls -la b[a-z]*.txt
 
 # move everyfile execept the folder temp itself into temp/
 mv !(temp) temp/
+
+# you could manually set the shell option
+shopt -s # -s for set
+shopt -s # -u for unset
+
+# example -> which can not use !(*.txt) for finding exclaimation
+shopt -u extglob
