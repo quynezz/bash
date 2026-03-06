@@ -28,4 +28,4 @@ while read -r word; do
     echo "Processing word: $word"
     ((i++))
     # this will read the output from the process that ran the "grep" command
-done < <(grep love1235 /usr/share/wordlists/rockyou.txt)
+done < <(echo "$words")
