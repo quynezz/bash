@@ -11,7 +11,7 @@ awk_1=$(cat /etc/passwd | awk -F: '{print $7}' | sort | uniq -c)
 # awk_3=$(awk-F: "print $1" </etc/passwd)
 
 # Condition mathching with awk
-# awk_4=$(awk -F: '$7 == "/bin/bash" {print $1}' </etc/passwd)
+awk_4=$(awk -F: '$7 == "/bin/bash" {print $1}' </etc/passwd)
 
 echo "$awk_1"
 # echo "$awk_2"
